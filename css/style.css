@@ -7,3 +7,29 @@ html,body{
     height: 100%;
     width: 100%;
 }
+header{
+
+}
+nav{display: flex;align-items: center;justify-content: space-between;padding: 50px 228px 0px 250px;}
+nav > h3{
+
+color: var(--Dark-01, #131313);
+
+font-size: 45px;
+
+font-weight: 700;
+}
+nav > ul{
+display: flex;
+gap: 20px;
+}
+nav > ul > li {
+    list-style: none;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+}
